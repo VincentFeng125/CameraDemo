@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/list_item_for_scheduling_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/pic_spinner_item_drawable"
+        android:contentDescription="@string/description_safe_waring_list_item_img" />
+
+    <TextView
+        android:id="@+id/list_item_for_scheduling_title"
+        style="@style/list_item_common_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/list_item_for_scheduling_settings"
+        style="@style/list_item_common_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="@string/layout_string_detailed_settings" />
+
+    <Switch
+        android:id="@+id/list_item_for_scheduling_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

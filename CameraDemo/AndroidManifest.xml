@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vincent.feng.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.CameraActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_camera" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="vincent.feng.demo.category.item" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Camer2Activity"
+            android:label="@string/title_activity_camer2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="vincent.feng.demo.category.item" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DownLoadActivity"
+            android:label="@string/title_activity_down_load" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MaintainActivity"
+            android:label="@string/title_activity_maintain"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="vincent.feng.demo.category.item" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScheduledActivity"
+            android:label="@string/title_activity_scheduled" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="vincent.feng.demo.category.item" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SchedulingActivity"
+            android:label="@string/title_activity_scheduling" >
+        </activity>
+        <activity android:name=".SafeCheckDetailedActivity" >
+        </activity>
+    </application>
+
+</manifest>

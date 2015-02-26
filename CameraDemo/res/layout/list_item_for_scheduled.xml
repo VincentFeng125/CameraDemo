@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/list_item_for_scheduled_check_self_time_pointer_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/pic_point"
+        android:padding="5dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/list_item_for_scheduled_check_self_title_tv"
+        style="@style/list_item_common_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车灯自检" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/list_item_for_scheduled_check_self_date_tv"
+        style="@style/list_item_common_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今天 下午 6:00" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/list_item_for_scheduled_check_self_content_tv"
+        style="@style/list_item_common_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昨天就车灯被撞坏了，今天记得一定要重修。不要忘记了！" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/list_item_for_scheduled_check_self_level_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="次要" />
+
+</LinearLayout>

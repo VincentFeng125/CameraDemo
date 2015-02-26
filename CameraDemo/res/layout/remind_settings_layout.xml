@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/layout_string_remind_date" />
+
+        <TextView
+            android:id="@+id/tv_remind_date_show"
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="2015/2/3  上午9:30" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_of_set_date_remind"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/layout_string_repeat" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_setting_repeat"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/btn_enter"
+            android:paddingRight="10dp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_remind_repeat_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_repeat_remind_finish"
+            style="@style/common_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/layout_string_finish" />
+
+        <RadioButton
+            android:id="@+id/radio_never"
+            style="@style/common_radio_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/layout_string_never" />
+
+        <RadioButton
+            android:id="@+id/radio_every_day"
+            style="@style/common_radio_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/layout_string_every_day" />
+
+        <RadioButton
+            android:id="@+id/radio_every_week"
+            style="@style/common_radio_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/layout_string_every_week" />
+
+        <RadioButton
+            android:id="@+id/radio_every_month"
+            style="@style/common_radio_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/layout_string_every_month" />
+
+        <RadioButton
+            android:id="@+id/radio_every_custom"
+            style="@style/common_radio_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/layout_string_custom" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btn_dialog_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/img_return" />
+
+        <TextView
+            style="@style/common_child_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/layout_string_custom" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_setting_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/select_item_bg"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/layout_string_frequency" />
+
+        <TextView
+            android:id="@+id/tv_show_for_frequency"
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/layout_string_everyday" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_for_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/radio_everyday"
+            style="@style/common_radio_no_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/layout_string_everyday" />
+
+        <RadioButton
+            android:id="@+id/radio_everyweek"
+            style="@style/common_radio_no_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/layout_string_everyweek" />
+
+        <RadioButton
+            android:id="@+id/radio_everymonth"
+            style="@style/common_radio_no_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/string_everymonth" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/layout_setting_cycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/select_item_bg"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/layout_string_every_" />
+
+        <TextView
+            android:id="@+id/tv_show_for_cycle"
+            style="@style/common_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/layout_string_1_day" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_for_cycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/radio_1_day"
+            style="@style/common_radio_no_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/layout_string_1_day" />
+
+        <RadioButton
+            android:id="@+id/radio_2_day"
+            style="@style/common_radio_no_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/layout_string_2_day" />
+
+        <RadioButton
+            android:id="@+id/radio_3_day"
+            style="@style/common_radio_no_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/layout_string_3_day" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_dialog_hint"
+        style="@style/common_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+</LinearLayout>

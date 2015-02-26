@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CameraDemo</string>
+    <string name="common_title">爱车保养</string>
+    <string name="common_title_detailed">详细设置</string>
+
+    <!-- 标题信息 -->
+    <string name="title_activity_main">VincentFeng</string>
+    <string name="title_activity_camera">相机1</string>
+    <string name="title_activity_camer2">相机2</string>
+    <string name="title_activity_down_load">下载DEMO</string>
+    <string name="title_activity_maintain">爱车保养</string>
+    <string name="title_activity_scheduled">ScheduledActivity</string>
+    <string name="title_activity_scheduling">SchedulingActivity</string>
+
+    <!-- 布局中图片资源描述信息 -->
+    <string name="description_safe_waring_list_item_img">安全警报ListView item中使用的图片</string>
+    <!-- 布局中使用到的文字信息 -->
+    <string name="layout_string_scheduled">已计划</string>
+    <string name="layout_string_scheduling">要计划</string>
+    <string name="layout_string_hint_infomation">为了车安全性能更高。建议您保养项目！</string>
+    <string name="layout_string_auto_send_msg_to_client">自动发送到手机客户端</string>
+    <string name="layout_string_note">备注</string>
+    <string name="layout_string_priority">优先级</string>
+    <string name="layout_string_urgency">紧急</string>
+    <string name="layout_string_important">重要</string>
+    <string name="layout_string_minor">次要</string>
+    <string name="layout_string_specify_date_remind">在指定日期提醒我</string>
+    <string name="layout_string_detailed_settings">详情设置</string>
+    <string name="layout_string_remind_date">提醒时间</string>
+    <string name="layout_string_repeat">重复</string>
+    <string name="layout_string_finish">完成</string>
+    <string name="layout_string_never">永不</string>
+    <string name="layout_string_every_day">每天一次</string>
+    <string name="layout_string_every_week">每周一次</string>
+    <string name="layout_string_every_month">每月一次</string>
+    <string name="layout_string_custom">自定义</string>
+    <string name="layout_string_everyday">每天</string>
+    <string name="layout_string_everyweek">每周</string>
+    <string name="string_everymonth">每月</string>
+    <string name="layout_string_every_">每</string>
+    <string name="layout_string_1_day">1天</string>
+    <string name="layout_string_2_day">2天</string>
+    <string name="layout_string_3_day">3天</string>
+    <string name="layout_string_frequency">频率</string>
+
+</resources>

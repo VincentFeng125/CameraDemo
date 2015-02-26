@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="vincent.feng.demo.SchedulingActivity" >
+
+    <RadioGroup
+        android:id="@+id/maintain_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/tab_safe_waring"
+            style="@style/maintain_tab_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="安全警报" />
+
+        <RadioButton
+            android:id="@+id/tab_safe_check_noti"
+            style="@style/maintain_tab_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="安全自检提醒" />
+
+        <RadioButton
+            android:id="@+id/tab_maintain_noti"
+            style="@style/maintain_tab_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="保养提醒" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

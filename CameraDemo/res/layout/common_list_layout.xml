@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/listview_head_of"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_list_head" />
+
+    <ListView
+        android:id="@+id/listview_of"
+        style="@style/fragment_listview_common_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
