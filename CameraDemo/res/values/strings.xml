@@ -44,5 +44,8 @@
     <string name="layout_string_2_day">2天</string>
     <string name="layout_string_3_day">3天</string>
     <string name="layout_string_frequency">频率</string>
+    <string name="title_activity_detail_photo">DetailPhotoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
